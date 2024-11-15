@@ -4,7 +4,7 @@ This project demonstrates the development of a **serverless web application** fo
 
 ## Project Architecture
 
-![Project Architecture]([Architecture.jpg](architecture.png) "Project Architecture") 
+![Project Architecture]([Architecture.jpg](https://github.com/LahbouchiHanae/AWS-Serverless-Web-App-for-User-Driven-CRUD-Operations-on-DynamoDB/blob/42c135522710edaec43276626210a70839fce342/architecture.png) "Project Architecture") 
 
 ## Features
 
