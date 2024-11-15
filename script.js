@@ -51,7 +51,7 @@ async function onFormSubmit(event) {
         selectedProduct = null; // Reset selected product after updating
     }
     resetForm(); // Clear the form after submission
-    window.location.href = 'product_list.html'; // Go back to the product list page
+    //window.location.href = 'product_list.html'; // Go back to the product list page
 }
 
 // Function to add a new product
@@ -63,7 +63,7 @@ async function addProduct(product) {
             body: JSON.stringify(product)
         });
         const result = await response.json();
-        alert(result.message || 'Product added successfully');
+        //alert(result.message || 'Product added successfully');
     } catch (error) {
         console.error('Error adding product:', error);
     }
@@ -78,7 +78,7 @@ async function updateProduct(product) {
             body: JSON.stringify(product)
         });
         const result = await response.json();
-        alert(result.message || 'Product updated successfully');
+        //alert(result.message || 'Product updated successfully');
     } catch (error) {
         console.error('Error updating product:', error);
     }
@@ -86,18 +86,18 @@ async function updateProduct(product) {
 
 // Function to delete a product
 async function deleteProduct(productCode) {
-    if (confirm('Do you want to delete this product?')) {
+    
         try {
             const response = await fetch(`${apiUrl}/${productCode}`, {
                 method: 'DELETE',
             });
             const result = await response.json();
-            alert(result.message || 'Product deleted successfully');
+            //alert(result.message || 'Product deleted successfully');
             await loadProductList(); // Refresh product list after deletion
         } catch (error) {
             console.error('Error deleting product:', error);
         }
-    }
+    
 }
 
 // Function to edit a product
