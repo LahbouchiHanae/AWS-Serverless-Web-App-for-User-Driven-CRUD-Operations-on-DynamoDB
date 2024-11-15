@@ -2,7 +2,9 @@
 
 This project demonstrates the development of a **serverless web application** for managing products, leveraging the power of AWS cloud services. The application provides a seamless user experience to perform CRUD (**Create, Read, Update, Delete**) operations on a **DynamoDB** table designed to store product data. This solution ensures scalability, efficiency, and minimal operational overhead ideal for modern cloud-based applications.
 
+## Project Architecture
 
+![Project Architecture]([Architecture.jpg](https://github.com/LahbouchiHanae/AWS-Serverless-Web-App-for-User-Driven-CRUD-Operations-on-DynamoDB/blob/main/project-architecture.png) "Project Architecture") 
 
 ## Features
 
