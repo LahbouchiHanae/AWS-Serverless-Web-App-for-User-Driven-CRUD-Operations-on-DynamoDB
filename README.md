@@ -38,9 +38,9 @@ Remove products seamlessly, ensuring synchronization with the **DynamoDB** table
 
 ## Key Achievements:
 
-– Developed a fully serverless web application with AWS, ensuring scalability and low operational costs.
-– Implemented efficient data operations on DynamoDB, ensuring fast and reliable access.
-– Configured AWS services to work together, providing a seamless and performant user experience.
+- Developed a fully serverless web application with AWS, ensuring scalability and low operational costs.
+- Implemented efficient data operations on DynamoDB, ensuring fast and reliable access.
+- Configured AWS services to work together, providing a seamless and performant user experience.
 
 ---
 
