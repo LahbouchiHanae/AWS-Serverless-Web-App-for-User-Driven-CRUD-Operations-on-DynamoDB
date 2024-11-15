@@ -1,4 +1,4 @@
-# Serverless Web Application on AWS
+# AWS Serverless WebApp for User-Driven CRUD Operations on DynamoDB
 
 This project demonstrates the development of a **serverless web application** for managing products, leveraging the power of AWS cloud services. The application provides a seamless user experience to perform CRUD (**Create, Read, Update, Delete**) operations on a **DynamoDB** table designed to store product data. This solution ensures scalability, efficiency, and minimal operational overhead ideal for modern cloud-based applications.
 
