@@ -6,6 +6,10 @@ This project demonstrates the development of a **serverless web application** fo
 
 ![Project Architecture](https://github.com/LahbouchiHanae/AWS-Serverless-Web-App-for-User-Driven-CRUD-Operations-on-DynamoDB/blob/main/architecture.jpg)
 
+## Project Demo
+
+![Video Demo](https://github.com/LahbouchiHanae/AWS-Serverless-Web-App-for-User-Driven-CRUD-Operations-on-DynamoDB/blob/main/Demo.gif)
+
 ## Features
 
 ### 🔹 Add Products  
