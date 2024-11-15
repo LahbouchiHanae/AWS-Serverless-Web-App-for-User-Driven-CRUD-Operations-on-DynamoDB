@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product List</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="main-menu">
+        <ul>
+            <li>
+                <a href="index.html">
+                    <img class="icons" src="home-icon.png">
+                    <span class="nav-text">Home</span>
+                </a> 
+            </li>
+            <li>
+                <a href="product_list.html">
+                    <img class="icons" src="list-icon.png">
+                    <span class="nav-text">View Product List</span>
+                </a> 
+            </li>
+        </ul>
+    </nav>
+
+    <div class="product_list">
+        <h1>Product List</h1>
+        
+        <table class="list" id="storeList">
+            <thead>
+                <tr>
+                    <th>Product Code</th>
+                    <th>Product Name</th>
+                    <th>Qty</th>
+                    <th>Price</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Product rows will be injected here by JavaScript -->
+            </tbody>
+        </table>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

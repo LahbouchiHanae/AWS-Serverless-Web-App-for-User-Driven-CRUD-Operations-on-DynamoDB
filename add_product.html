@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Product</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="main-menu">
+        <ul>
+            <li>
+                <a href="index.html">
+                    <img class="icons" src="home-icon.png">
+                    <span class="nav-text">Home</span>
+                </a> 
+            </li>
+            <li>
+                <a href="product_list.html">
+                    <img class="icons" src="list-icon.png">
+                    <span class="nav-text">View Product List</span>
+                </a> 
+            </li>
+        </ul>
+    </nav>
+
+    <div class="add_product">
+        
+        <h1>Add a New Product</h1>
+        <form autocomplete="off" onsubmit="onFormSubmit(event)">
+            <div>
+                <label for="productCode">Product Code</label>
+                <input type="text" name="productCode" id="productCode" required>
+            </div>
+            <div>
+                <label for="productName">Product Name</label>
+                <input type="text" name="productName" id="productName" required>
+            </div>
+            <div>
+                <label for="qty">Qty</label>
+                <input type="number" name="qty" id="qty" required>
+            </div>
+            <div>
+                <label for="price">Price</label>
+                <input type="number" name="price" id="price" step="0.01" required>
+            </div>
+            <div class="form_action--button">
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </div>
+        </form>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
